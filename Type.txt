@@ -1,0 +1,13 @@
+Javascript 有 七种类型：
+
+1. Number
+
+2. Stirng
+
+3. Boolean                                          === 
+
+4. Undefined                                      var password;   > undefined
+
+5. Null
+6. Symbol
+7. Object
