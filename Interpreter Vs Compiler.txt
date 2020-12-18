@@ -1,0 +1,36 @@
+首先介绍两个概念， 
+
+JavaScript engine，是解释引擎，将javascript code转换为 computer能理解的语言
+
+V8，是其中一种，由谷歌发明的引擎，用C++编写
+
+
+
+
+
+Interpreter解释器，execute the code right away
+
+Compiler 编译器，translate the code to another language, such as machine code
+
+优缺点：
+
+interpreter启动快，但是重复大量code，比如重复运行某个function时，比较慢
+
+Complier启动时需要先将code转换成另一种代码，启动慢，但是重复运行大量代码时，速度快，有优化
+
+
+
+其中，JS是解释型语言，但是可以用compiler编译器，因此
+
+V8 engine 结合了interpreter和compiler，既能快速启动，又能优化
+
+
+Java是编译型语言，利用JVM    java virtual machine虚拟机，编译成 bytecode， 
+而computer是不能理解bytecode的，只能理解machine code，因此编译成Bytecode的代码需要
+借助 engine 来运行
+
+
+Q： Is javascript a interpreter language?
+
+A: It depends on the implementation, js is initally  a interpreter language, but later on, it can also 
+be used on compiler. For example, V8 uses both interpreter and compiler to run JS very fast
