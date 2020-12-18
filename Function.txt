@@ -1,0 +1,14 @@
+1. 常规
+
+function myFunc(){
+}
+
+2. Function expression 形式
+
+var sayHello = function(){
+   console.log("Hello");
+}
+
+这个是匿名函数Anonymous function, 函数没有名字，变量名字 sayHello 是函数的reference
+
+3.
