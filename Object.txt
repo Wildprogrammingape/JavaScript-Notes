@@ -1,0 +1,27 @@
+Data structure:  
+
+Array       Object
+
+object既是数据结构，又是type类型
+
+objects are collection of property.
+
+定义一个Object:
+
+var user = {
+   name: "John",
+   age :  34,
+   hobby:  "Soccer",
+   isMarried: false,
+   spells: [1,2,3,4],
+   shut : function (){ console.log("Ahhhhhhhhhh!"); }
+};
+
+property --  value 的组合作为Object的element,   如  name:   "John"
+
+比如我想调用user的第二个元素：
+user.name --  "John"
+
+比如给object增加一个property:
+user.id = 40088333;
+就如同array.concat() 一样
