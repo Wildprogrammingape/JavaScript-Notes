@@ -1,0 +1,26 @@
+// function declaration
+
+function   newFunction(){
+}
+
+// function expression
+
+var newFunction = function(){
+};
+
+
+// function   VS   method
+写在object里面的都是method,  需要用  obj.function()  去调用
+
+例子：
+
+function thisIsFunction (){
+}
+
+
+var obj = {
+   thisIsMethod : function() {}
+}
+
+调用function ---          thisIsFunction()
+调用method  ---          obj.thisIsMethod()
