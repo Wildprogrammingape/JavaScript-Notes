@@ -1,0 +1,17 @@
+定义
+
+var list = ["tiger",''cat","bear","bird"];
+list[0]   --    tiger
+
+
+
+函数也可以作为array的element:
+
+var mixedList = ["apple", 3, undefined, true, function apple(){console.log("apples")}  ];
+
+也可以嵌套array在array里：
+
+
+var list = [ ["tiger",''cat","bear","bird"]
+              ];
+list[0][1]   -- tiger
