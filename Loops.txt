@@ -1,0 +1,24 @@
+有四种循环的语法：
+
+1. For
+2. While
+3. Do while
+
+4. 新特性 forEach
+
+.forEach
+
+例子：
+
+var todoList = ["get up", "breakfest", "study", "go to bed"];
+
+function logTodoList(todo, i){
+  console.log(todo, i);
+}
+
+todoList.forEach(logTodoList);
+
+>> get up 0
+      breakfest 1
+      study 2
+      go to bed 3
