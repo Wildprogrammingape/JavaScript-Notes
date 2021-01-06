@@ -1,0 +1,12 @@
+
+语法和java一样：
+
+condition ? case1 : case2
+
+
+例子：
+function isUserValid(boo){
+   return boo;
+}
+
+var answer = isUserValid(true) ? "You may enter" : "Access denied";
