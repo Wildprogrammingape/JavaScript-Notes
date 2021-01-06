@@ -1,0 +1,28 @@
+例子：
+
+function moveCommand(direction){
+   var action;
+
+   switch (direction){
+   case "forward": 
+	action = "You encounter a boy";
+	break;
+   case "back": 
+	action = "You arrived home";
+	break;
+   case "left": 
+	action = "You found a river";
+	break;
+   case "right": 
+	action = "You run into a troll";
+	break;
+   default:
+	action = "Please enter a valid direction";
+   }
+   return action;
+}
+
+
+switch 与 if else 相比的好处：
+
+当if条件很多时， switch case写法更简洁方便
