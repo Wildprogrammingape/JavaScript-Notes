@@ -1,0 +1,35 @@
+ECMAScript  ===  JavaScript
+
+ES6
+
+
+Babel 是编译器compiler, 作用：
+
+Read our JavaScript code and transform it into the form that can work on all browsers
+
+将JS代码转换成broswer能识别的形式，因此有Babel的存在，我们可以随心所欲用ES6++的新feature
+
+
+代码学习：
+
+1. let const
+
+当变量不改变，或者function时，用const
+
+2. Desctructuring
+
+const obj = {
+	player  : "bobby",
+	experience:  100,
+	wizardLevel : false
+}
+
+赋值可以这么用
+
+const {player, experience} = obj;
+let {wizardLevel} = obj;
+
+3. Template strings
+`   ${name}  `
+
+4. Default argument

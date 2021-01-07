@@ -1,0 +1,15 @@
+两数相加函数：
+
+标准写法：
+function add(a,b) {
+   return a+b;
+}
+
+箭头函数写法：
+const add = (a,b) =>  a+b;
+
+等同于
+
+const add = (a,b) =>{
+   return a+b;
+}

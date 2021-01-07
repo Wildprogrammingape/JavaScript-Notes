@@ -1,0 +1,7 @@
+不太常用的类型type,作用是让变量unique
+
+let sym1 = Symbol('cat');
+let sym2 = Symbol('cat');
+
+> sym1 === sym2
+> false
