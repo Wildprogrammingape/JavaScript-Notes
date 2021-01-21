@@ -1,4 +1,4 @@
-1. 常规
+1. 常规函数
 
 function myFunc(){
 }
@@ -11,4 +11,34 @@ var sayHello = function(){
 
 这个是匿名函数Anonymous function, 函数没有名字，变量名字 sayHello 是函数的reference
 
-3.
+
+Arrow function的function expression形式更简单，直接不需要function关键词
+
+Function expression在 Arrow Functions的例子：
+
+Arrow functions allows a short syntax for writing function expressions.
+
+You don't need the function keyword, the return keyword, and the curly brackets.
+
+Example
+
+
+// ES5
+var x = function(x, y) {
+  return x * y;
+}
+
+// ES6
+const x = (x, y) => x * y;
+
+
+这个是常规和arrow function的 function expression例子
+
+
+
+
+
+
+匿名函数教程：
+
+https://www.w3schools.com/js/js_function_definition.asp
